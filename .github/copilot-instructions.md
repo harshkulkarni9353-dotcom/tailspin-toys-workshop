@@ -14,6 +14,14 @@ This is a crowdfunding platform for games with a developer theme. The applicatio
 
 ## Code standards
 
+The shared rules for comments, TSDoc, component contracts, and TypeScript formatting live in [`instructions/coding-standards.instructions.md`](instructions/coding-standards.instructions.md). In particular:
+
+- Comment intent and non-obvious decisions, not mechanics or code that is already self-explanatory.
+- Keep comments current, and update or remove stale comments in the same change.
+- Add TSDoc to every exported function in `db/` and `src/lib/`, covering purpose, parameters, and return value.
+- Document reusable Astro component `Props` interfaces and any non-obvious prop constraints.
+- Follow the repository's two-space, single-quote, semicolon, and multiline trailing-comma formatting conventions.
+
 ### Required Before Each Commit
 
 #### Testing guidelines
